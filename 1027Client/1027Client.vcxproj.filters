@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="协议">
+      <UniqueIdentifier>{00b212a9-b956-4f10-b848-a822e74b29d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="中介者">
+      <UniqueIdentifier>{73b7d200-51c3-4557-88ed-32a5af5418de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络">
+      <UniqueIdentifier>{93ed4e34-2a40-49d9-a790-454794c5a8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{f63afc51-d944-4370-90bf-153ef1a21a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AES">
+      <UniqueIdentifier>{91ce3574-ca64-417b-b20c-e31e9871f636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{ff405bab-bff5-41b3-9221-f166058cc843}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1027Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1027ClientDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\IKernel.h">
+      <Filter>中介者</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\TCPKernel.h">
+      <Filter>中介者</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\INet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\TCPNet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packdef\Packdef.h">
+      <Filter>协议</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDlgMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomDlgg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultDlgg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Getfriend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IsAgreeFriend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LookPersonDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonChat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ocx1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMPPlayer4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMPControls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMPMedia.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMPSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MD5\md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AES\MyAes.h">
+      <Filter>AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFMPEG\AudioEncode.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFMPEG\CollectAudio.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFMPEG\CollectCamera.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFMPEG\MyCollectDesktop.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFMPEG\MyEncode.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFMPEG\Myffmpeg.h">
+      <Filter>ffmpeg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1027Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1027ClientDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kernel\TCPKernel.cpp">
+      <Filter>中介者</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Net\TCPNet.cpp">
+      <Filter>网络</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDlgMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDlgg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultDlgg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>网络</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Getfriend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IsAgreeFriend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LookPersonDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonChat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ocx1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWMPPlayer4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MD5\md5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AES\MyAes.cpp">
+      <Filter>AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFMPEG\AudioEncode.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFMPEG\CollectAudio.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFMPEG\CollectCamera.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFMPEG\MyCollectDesktop.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFMPEG\MyEncode.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFMPEG\Myffmpeg.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="1027Client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My1027Client.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\1027Client.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\back1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\背景1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\桌子.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\back2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\桌子白.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\桌子黑.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\座位.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\HEAD.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\开始.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\离开.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\HEADYES.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\取消准备.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\图片bmp\准备.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
